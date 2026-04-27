@@ -1,0 +1,14 @@
+# Native build outputs
+/kindle-iagno
+/smoke-test
+*.o
+
+# Generated package tree
+/dist/
+/release/extensions/
+/release/documents/
+/release/kindle-iagno-extension/
+
+# Editor/OS noise
+*~
+.DS_Store
