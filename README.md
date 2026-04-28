@@ -3,6 +3,8 @@
 A Kindle-friendly Iagno/Reversi app derived from GNOME Games' Iagno ideas and
 assets.
 
+![Kindle Iagno running on Kindle](screenshots/kindle-iagno.png)
+
 Kindle Iagno is an unofficial Kindle-focused derivative/adaptation of GNOME
 Games' Iagno. It keeps the Iagno/Reversi game concept, visual assets, and
 GNOME Games lineage, while replacing the original GNOME desktop application
