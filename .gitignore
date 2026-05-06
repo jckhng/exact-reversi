@@ -5,6 +5,7 @@
 
 # Generated package tree
 /dist/
+/release/
 /release/extensions/
 /release/documents/
 /release/kindle-iagno-extension/
