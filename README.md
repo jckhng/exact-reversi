@@ -1,11 +1,11 @@
-# Kindle Iagno
+# Exact Reversi
 
 A Kindle-friendly Iagno/Reversi app derived from GNOME Games' Iagno ideas and
 assets.
 
-![Kindle Iagno running on Kindle](screenshots/kindle-iagno.png)
+![Exact Reversi running on Kindle](screenshots/exact-reversi.png)
 
-Kindle Iagno is an unofficial Kindle-focused derivative/adaptation of GNOME
+Exact Reversi is an unofficial Kindle-focused derivative/adaptation of GNOME
 Games' Iagno. It keeps the Iagno/Reversi game concept, visual assets, and
 GNOME Games lineage, while replacing the original GNOME desktop application
 shell with a small GTK2/Cairo interface packaged for jailbroken Kindle devices.
@@ -14,7 +14,7 @@ This project is also informed by the GnomeGames4Kindle porting work and follows
 the same packaging approach used by Kindle GlChess. Original GNOME Games /
 Iagno code, ideas, and artwork remain credited to the GNOME Games authors;
 Kindle porting groundwork and packaging references are credited to
-GnomeGames4Kindle and its author(s).
+GnomeGames4Kindle, originally by crazy-electron, and later contributors.
 
 ## Features
 
@@ -29,20 +29,20 @@ GnomeGames4Kindle and its author(s).
 Use the prebuilt extension package:
 
 ```text
-release/kindle-iagno-extension.zip
+release/exact-reversi-extension.zip
 ```
 
 Unzip it at the Kindle USB-storage root so it creates:
 
 ```text
-/mnt/us/extensions/kindle-iagno
-/mnt/us/documents/shortcut_kindleiagno.sh
+/mnt/us/extensions/exact-reversi
+/mnt/us/documents/shortcut_exactreversi.sh
 ```
 
 Then launch from KUAL:
 
 ```text
-KUAL -> Kindle Iagno -> Launch
+KUAL -> Exact Reversi -> Launch
 ```
 
 The document shortcut is optional. KUAL is the reliable launch path; a stock
@@ -81,10 +81,10 @@ ARMv7 Debian Bullseye container:
 
 That command:
 
-- Builds or starts the persistent `kindle-iagno-armhf-builder` container.
-- Compiles the ARM hard-float `kindle-iagno` binary.
+- Builds or starts the persistent `exact-reversi-armhf-builder` container.
+- Compiles the ARM hard-float `exact-reversi` binary.
 - Runs `smoke-test`.
-- Packages `dist/kindle-iagno-extension.zip`.
+- Packages `dist/exact-reversi-extension.zip`.
 
 If your Linux Docker install cannot run ARM containers, install binfmt support:
 
@@ -99,7 +99,7 @@ See [docs/BUILDING.md](docs/BUILDING.md) for the full build process.
 The checked-in release artifact is:
 
 ```text
-release/kindle-iagno-extension.zip
+release/exact-reversi-extension.zip
 ```
 
 Verify it with:
@@ -111,7 +111,7 @@ sha256sum -c SHA256SUMS
 
 ## License And Provenance
 
-Kindle Iagno is not an official GNOME project or an official
+Exact Reversi is not an official GNOME project or an official
 GnomeGames4Kindle release. It is a derivative/adaptation project that includes
 assets and project lineage from GNOME Games / Iagno and keeps the applicable
 GPL-family license texts in `licenses/`.

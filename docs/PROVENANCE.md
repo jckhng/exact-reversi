@@ -1,12 +1,12 @@
 # Provenance And Licensing
 
-Kindle Iagno is an unofficial Kindle-focused derivative/adaptation of GNOME
+Exact Reversi is an unofficial Kindle-focused derivative/adaptation of GNOME
 Games' Iagno.
 
 It is also informed by the GnomeGames4Kindle porting work. Original GNOME
 Games / Iagno code, ideas, and artwork remain credited to their upstream
 authors. Kindle porting groundwork and packaging references are credited to
-GnomeGames4Kindle and its author(s).
+GnomeGames4Kindle, originally by crazy-electron, and later contributors.
 
 This repository is not an official GNOME project and is not an official
 GnomeGames4Kindle release.
@@ -40,8 +40,8 @@ Those libraries keep their own upstream licenses. The generated extension
 package includes:
 
 ```text
-extensions/kindle-iagno/LICENSES/RUNTIME-LIBS.txt
-extensions/kindle-iagno/LICENSES/THIRD-PARTY-NOTICE.txt
+extensions/exact-reversi/LICENSES/RUNTIME-LIBS.txt
+extensions/exact-reversi/LICENSES/THIRD-PARTY-NOTICE.txt
 ```
 
 If publishing binary releases, keep the license files and runtime notices with

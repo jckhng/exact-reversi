@@ -1,5 +1,5 @@
-#ifndef KINDLE_IAGNO_ENGINE_H
-#define KINDLE_IAGNO_ENGINE_H
+#ifndef EXACT_REVERSI_ENGINE_H
+#define EXACT_REVERSI_ENGINE_H
 
 #include <glib.h>
 

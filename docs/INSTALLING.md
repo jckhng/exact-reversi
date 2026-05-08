@@ -24,27 +24,27 @@ current guide for your exact device.
 
 ## Install
 
-Unzip `release/kindle-iagno-extension.zip` at the Kindle USB-storage root.
+Unzip `release/exact-reversi-extension.zip` at the Kindle USB-storage root.
 
 Expected paths:
 
 ```text
-/mnt/us/extensions/kindle-iagno
-/mnt/us/documents/shortcut_kindleiagno.sh
+/mnt/us/extensions/exact-reversi
+/mnt/us/documents/shortcut_exactreversi.sh
 ```
 
 Fix execute bits over SSH if needed:
 
 ```sh
-chmod 755 /mnt/us/extensions/kindle-iagno/*.sh
-chmod 755 /mnt/us/extensions/kindle-iagno/bin/armhf/kindle-iagno
-chmod 755 /mnt/us/documents/shortcut_kindleiagno.sh
+chmod 755 /mnt/us/extensions/exact-reversi/*.sh
+chmod 755 /mnt/us/extensions/exact-reversi/bin/armhf/exact-reversi
+chmod 755 /mnt/us/documents/shortcut_exactreversi.sh
 ```
 
 Launch from KUAL:
 
 ```text
-KUAL -> Kindle Iagno -> Launch
+KUAL -> Exact Reversi -> Launch
 ```
 
 The document shortcut is optional. KUAL is the reliable launch path; a stock
@@ -54,6 +54,6 @@ launcher/file association is installed.
 Logs:
 
 ```sh
-tail -n 120 /mnt/us/kindle-iagno.log
-tail -n 120 /mnt/us/kindle-iagno-shortcut.log
+tail -n 120 /mnt/us/exact-reversi.log
+tail -n 120 /mnt/us/exact-reversi-shortcut.log
 ```

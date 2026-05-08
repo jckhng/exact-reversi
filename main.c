@@ -6,12 +6,12 @@
 
 #include "iagno_engine.h"
 
-#define APP_TITLE "Kindle Iagno"
-#define KINDLE_WINDOW_TITLE "L:A_N:application_ID:kindleiagno_PC:N_O:URL"
-#define KINDLE_WINDOW_TITLE_TOPBAR "L:A_N:application_PC:T_ID:kindleiagno_O:URL"
-#define SAVE_PATH "/mnt/us/extensions/kindle-iagno/kindle-iagno.save"
-#define LEGACY_SAVE_PATH "/mnt/us/documents/kindle-iagno.txt"
-#define LOG_PATH "/mnt/us/kindle-iagno.log"
+#define APP_TITLE "Exact Reversi"
+#define KINDLE_WINDOW_TITLE "L:A_N:application_ID:exactreversi_PC:N_O:URL"
+#define KINDLE_WINDOW_TITLE_TOPBAR "L:A_N:application_PC:T_ID:exactreversi_O:URL"
+#define SAVE_PATH "/mnt/us/extensions/exact-reversi/exact-reversi.save"
+#define LEGACY_SAVE_PATH "/mnt/us/documents/exact-reversi.txt"
+#define LOG_PATH "/mnt/us/exact-reversi.log"
 #define KINDLE_APP_WIDTH 1072
 #define KINDLE_APP_HEIGHT 1448
 
@@ -408,7 +408,7 @@ static gboolean canvas_expose(GtkWidget *widget, GdkEventExpose *event, gpointer
     cairo_paint(cr);
 
     cairo_set_source_rgb(cr, 0, 0, 0);
-    cairo_text(cr, 8, 18, "Kindle Iagno", 15, TRUE);
+    cairo_text(cr, 8, 18, "Exact Reversi", 15, TRUE);
     cairo_text(cr, 112, 18, app.message, 11, FALSE);
 
     canvas_button_rect(cr, 4, 25, 74, 26, "New");
@@ -946,7 +946,7 @@ static void build_ui_complete(void)
     gtk_container_add(GTK_CONTAINER(app.window), vbox);
 
     title = gtk_label_new(NULL);
-    gtk_label_set_markup(GTK_LABEL(title), "<b>Kindle Iagno</b>");
+    gtk_label_set_markup(GTK_LABEL(title), "<b>Exact Reversi</b>");
     gtk_box_pack_start(GTK_BOX(vbox), title, FALSE, FALSE, 0);
 
     app.status = gtk_label_new("Black to move.");

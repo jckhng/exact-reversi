@@ -2,8 +2,8 @@
 set -eu
 
 ROOT="$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)"
-IMAGE="${KINDLE_IAGNO_DOCKER_IMAGE:-kindle-iagno-armhf-build:bullseye}"
-CONTAINER="${KINDLE_IAGNO_DOCKER_CONTAINER:-kindle-iagno-armhf-builder}"
+IMAGE="${EXACT_REVERSI_DOCKER_IMAGE:-exact-reversi-armhf-build:bullseye}"
+CONTAINER="${EXACT_REVERSI_DOCKER_CONTAINER:-exact-reversi-armhf-builder}"
 
 if ! docker image inspect "$IMAGE" >/dev/null 2>&1; then
     "$ROOT/docker_build_image.sh"
@@ -17,8 +17,8 @@ else
     docker run -d \
         --platform linux/arm/v7 \
         --name "$CONTAINER" \
-        -v "$ROOT:/src/kindle-iagno" \
-        -w /src/kindle-iagno \
+        -v "$ROOT:/src/exact-reversi" \
+        -w /src/exact-reversi \
         "$IMAGE" \
         sleep infinity >/dev/null
 fi

@@ -9,13 +9,13 @@ TEST_OBJS = smoke_test.o iagno_engine.o
 
 .PHONY: all clean
 
-all: kindle-iagno
+all: exact-reversi
 
-kindle-iagno: $(OBJS)
+exact-reversi: $(OBJS)
 	$(CC) $(CFLAGS) -o $@ $(OBJS) $(LDLIBS)
 
 smoke-test: $(TEST_OBJS)
 	$(CC) $(CFLAGS) -o $@ $(TEST_OBJS) $(LDLIBS)
 
 clean:
-	rm -f $(OBJS) $(TEST_OBJS) kindle-iagno smoke-test
+	rm -f $(OBJS) $(TEST_OBJS) exact-reversi smoke-test

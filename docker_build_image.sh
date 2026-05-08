@@ -2,7 +2,7 @@
 set -eu
 
 ROOT="$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)"
-IMAGE="${KINDLE_IAGNO_DOCKER_IMAGE:-kindle-iagno-armhf-build:bullseye}"
+IMAGE="${EXACT_REVERSI_DOCKER_IMAGE:-exact-reversi-armhf-build:bullseye}"
 
 docker build \
     --platform linux/arm/v7 \

@@ -1,5 +1,5 @@
 # Native build outputs
-/kindle-iagno
+/exact-reversi
 /smoke-test
 *.o
 
@@ -8,7 +8,7 @@
 /release/
 /release/extensions/
 /release/documents/
-/release/kindle-iagno-extension/
+/release/exact-reversi-extension/
 
 # Editor/OS noise
 *~

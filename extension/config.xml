@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension>
   <information>
-    <name>Kindle Iagno</name>
-    <id>kindle_iagno</id>
+    <name>Exact Reversi</name>
+    <id>exact_reversi</id>
     <version>0.1.0</version>
   </information>
   <menus>

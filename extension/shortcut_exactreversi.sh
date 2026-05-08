@@ -1,11 +1,11 @@
 #!/bin/sh
 
-EXT_DIR="/mnt/us/extensions/kindle-iagno"
-LAUNCHER="$EXT_DIR/launch_kindleiagno.sh"
-LOG_FILE="/mnt/us/kindle-iagno-shortcut.log"
+EXT_DIR="/mnt/us/extensions/exact-reversi"
+LAUNCHER="$EXT_DIR/launch_exactreversi.sh"
+LOG_FILE="/mnt/us/exact-reversi-shortcut.log"
 
 {
-    echo "----- Kindle Iagno shortcut $(date) -----"
+    echo "----- Exact Reversi shortcut $(date) -----"
     echo "cwd=$(pwd)"
     echo "launcher=$LAUNCHER"
 } >>"$LOG_FILE" 2>&1
