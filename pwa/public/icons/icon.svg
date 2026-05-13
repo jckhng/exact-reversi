@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="112" fill="#1a1a1a"/>
+  <rect x="68" y="68" width="376" height="376" rx="24" fill="#aaa"/>
+  <!-- 4x4 grid of alternating pieces to suggest Reversi -->
+  <circle cx="162" cy="162" r="44" fill="#1a1a1a"/>
+  <circle cx="256" cy="162" r="44" fill="#eee"/>
+  <circle cx="350" cy="162" r="44" fill="#1a1a1a"/>
+  <circle cx="162" cy="256" r="44" fill="#eee"/>
+  <circle cx="256" cy="256" r="44" fill="#1a1a1a"/>
+  <circle cx="350" cy="256" r="44" fill="#eee"/>
+  <circle cx="162" cy="350" r="44" fill="#1a1a1a"/>
+  <circle cx="256" cy="350" r="44" fill="#eee"/>
+  <circle cx="350" cy="350" r="44" fill="#1a1a1a"/>
+</svg>
