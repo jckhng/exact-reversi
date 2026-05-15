@@ -21,7 +21,7 @@ button, select { font: inherit; }
   margin-bottom: 10px;
 }
 .toolbar { grid-template-columns: repeat(auto-fit, minmax(86px, 1fr)); }
-.settings { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+.settings { grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); }
 .toolbar button, .settings select {
   width: 100%; min-width: 0; min-height: 46px;
   border: 2px solid #111; background: #f7f7f7; color: #111;
